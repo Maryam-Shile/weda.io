@@ -4,3 +4,4 @@ numpy
 statsforecast
 requests
 folium
+streamlit_folium

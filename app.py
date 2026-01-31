@@ -36,15 +36,18 @@ crop = st.selectbox(
 # ---------------- DATA SOURCE ----------------
 @st.cache_data
 def fetch_weather_data(lat, lon):
-    return pd.read_csv('C:/Users/LENOVO/Documents/python_data_analytics_course/Pod 2 Project/sarima_app/utils/data/Temperature/era_5_2000_2026.csv')
+    url_1 = "https://raw.githubusercontent.com/Maryam-Shile/weda.io/main/utils/data/Temperature/era_5_2000_2026.csv" 
+    return pd.read_csv(url_1)
 
 @st.cache_data
 def get_crop_info():
-    return pd.read_csv('C:/Users/LENOVO/Documents/python_data_analytics_course/Pod 2 Project/sarima_app/utils/data/Makwa crop data - Sheet4.csv')
+    url_2 = "https://raw.githubusercontent.com/Maryam-Shile/weda.io/main/utils/data/Makwa%20crop%20data%20-%20Sheet4.csv"
+    return pd.read_csv(url_2)
 
 @st.cache_data
 def fetch_rain_data():
-    return pd.read_csv('C:/Users/LENOVO/Documents/python_data_analytics_course/Pod 2 Project/sarima_app/utils/data/rainfall_2000_2026.csv')
+    url_3 = "https://raw.githubusercontent.com/Maryam-Shile/weda.io/main/utils/data/rainfall_2000_2026.csv"
+    return pd.read_csv(url_3)
 
 # ---------------- RUN ----------------
 if st.button("Run Prediction"):

@@ -1,0 +1,8 @@
+Crop,Country Relevance,Crop Type,Min Temp (°C),Max Temp (°C),Min Rainfall (mm),Max Rainfall (mm),Soil Type,Soil pH,Sunshine (hrs/day)
+Maize,"Nigeria, Ghana",Cereal,18,27,500,800,Well-drained loam,5.5–7.0,6–8 hrs
+Rice (lowland),"Nigeria, Ghana",Cereal,20,27,—,—,Waterlogged clay,4.5–6.5,4–5 hrs
+Rice (upland),"Nigeria, Ghana",Cereal,25,30,1000,2000,"Clay loam, alluvial",5.0–6.5,5–7 hrs
+Sorghum,"Nigeria, Ghana",Cereal,25,30,300,600,Sandy loam,5.0–8.5,7–9 hrs
+Soybean,Nigeria,Legume,20,30,500,900,Loam,6.0–7.0,5–7 hrs
+Cassava,"Nigeria, Ghana",Root,25,29,1000,1500,Sandy loam,5.5–7.0,6–8 hrs
+Sugar Cane,Tropical & subtropical regions,Perennial grass (Saccharum officinarum),22,38,750,1200,"Deep, well-drained loamy to clay loam",~6.0–7.0 (tolerant pH 5.5–8.5),High sunlight for long growing season

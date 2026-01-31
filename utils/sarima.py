@@ -79,7 +79,7 @@ def interpret_with_llm(crop_row, prediction_rain, prediction_temp):
     import requests
     import streamlit as st
     import numpy as np
-    api_key = st.secrets("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")
+    api_key = st.secrets['OPENROUTER_API_KEY']
 
     # Extract crop data
     crop_name = crop_row["Crop"]

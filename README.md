@@ -1,7 +1,8 @@
 Weda.io-A Climate Prediction & Crop Advisory App
+
 Overview
-Weda.io is a climate prediction and crop advisory application built with African farmers and agricultural investors in mind.
-Extreme weather events continue to cause severe agricultural losses across Africa. For example, the Food and Agriculture Organization (FAO) documented approximately ₦4 trillion worth of food loss in Benue State in 2024 due to flooding in major agricultural hubs. Climate variability has increasingly made agricultural investment unpredictable.
+
+Weda.io is a climate prediction and crop advisory application built with African farmers and agricultural investors in mind.Extreme weather events continue to cause severe agricultural losses across Africa. For example, the Food and Agriculture Organization (FAO) documented approximately ₦4 trillion worth of food loss in Benue State in 2024 due to flooding in major agricultural hubs. Climate variability has increasingly made agricultural investment unpredictable.
 Weda.io aims to reduce that uncertainty.
   - This pilot project uses historical climate data to:
   - Predict total precipitation over a selected period
@@ -38,8 +39,7 @@ After generating predictions, the system:
   - Produces a structured advisory message on crop viability
 
 Demo
-You can explore the project here:
-🔗 https://weda-predict.streamlit.app/
+You can explore the project here: https://weda-predict.streamlit.app/
 
 Model Details
 Rainfall Model
